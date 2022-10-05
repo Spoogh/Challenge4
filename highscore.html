@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highscores! Quizinator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <a class="btn" href="highscore.html">High Scores!</a>
+        <a class="justify-center title" href="index.html">Quizinator</a>
+        <p id= "timer" class="justify-right">Timer</p>
+    </header>
+    <section class="highscore-container">
+        <p class="form-title jusify-center"> Here is the current HIGHSCORE!<br> If you want to try again click Quizinator in the header!</p>
+    </section>
+    <div id="display-hs" class="title"></div>
+    <button onclick="resetStorage()" class="btn" id="reset-scores">Reset High Scores</button>
+    <script src="./assets/js/highscore.js"></script>
+</body>
+</html>

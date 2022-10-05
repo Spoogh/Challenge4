@@ -1,0 +1,177 @@
+:root {
+    font-size: 62.5%;
+    background-color: rgb(172, 172, 172);
+}
+
+* {
+    color: rgb(35, 36, 39);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(141, 141, 141);
+    justify-content: space-between;
+    height: fit-content;
+    margin: auto;
+}
+
+header a{
+   
+    font-family: 'Faster One', cursive;
+    color:rgb(35, 36, 39)
+}   
+
+.btn {
+    border: .2rem solid rgb(0, 0, 0);
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(26, 187, 50, 0.75);
+    font-size: 3.2rem;  
+    height: fit-content;
+    width: auto;
+    border-radius: 2.5rem;
+}
+
+.btn:hover {
+    font-family: 'Faster One', cursive;
+    cursor: pointer;
+    background-color: rgba(70, 229, 96, 0.75);
+    transition: 1s;
+}
+
+.title {
+    font-size: 5rem;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.jusify-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: end;
+}
+
+#timer {
+    font-size: 2.4rem;
+
+}
+
+main {
+    justify-content: center;
+    padding: 20rem;
+    max-width: 90vw;
+    width: 100%;
+    margin: auto;
+}
+
+main p {
+    font-size: 3.2rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+    text-align: center;
+}
+
+main button {
+    justify-content: center;
+    text-align: center;
+    float: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 2rem;
+    visibility: hidden;
+}
+
+h2 {
+    font-size: 5rem;
+    padding: 3rem;
+}
+
+.answer-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    border: .2rem solid rgb(20, 26, 184);
+    padding: 2rem;
+    border-radius: 2.5rem;
+    width: 100%;
+}
+
+.answer-container:hover {
+    background-color: rgba(70, 229, 96, 0.5);
+    transition: 1s;
+}
+
+.yesorno {
+    border-top: .5rem solid rgb(20, 26, 184);
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.initials {
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    max-width: 80rem;
+    margin: auto;
+    visibility: hidden;
+}
+
+.initials-input {
+    background-color: rgba(226, 241, 207, 0.75);
+    padding: 20px;
+    color: var(--secondary-color);
+    border: solid 3px var(--secondary-color);
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: .2rem solid rgb(20, 26, 184);
+    border-radius: 15px;
+    font-size: 3.2rem;
+}
+
+.form-title {
+    font-size: 4rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.high-score {
+    color: rgb(203, 7, 88);
+}
+
+
+#display-hs {
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(203, 216, 183);
+}

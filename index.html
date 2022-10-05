@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <a class="btn" href="highscore.html">High Scores!</a>
+        <a class="justify-center title" href="index.html" >Coding Quiz Challenge</a>
+        <p id="timer" class="justify-right">60 seconds remaining</p>
+    </header>
+    <main id="first-page" class="flex-column">
+        <p>You will have 60 seconds to answer the following questions.</p>
+        <button class="btn" id="start-game">Click here to begin!</button>
+    </main>
+    <section class="quiz-container">
+        <div id="quiz" class="flex-column">
+            <h2 id="question"></h2>
+            <div id="answer-choices"></div>
+            <div id="accuracy"></div>
+        </div>
+    </section>
+    <div id="initials" class="initials flex-column"></div>
+    <div id="display"></div>
+    <div id="clear-storage"></div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
